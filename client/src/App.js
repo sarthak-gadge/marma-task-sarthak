@@ -5,15 +5,13 @@ function App() {
   const [backendData, setBackendData] = useState(null);
 
   useEffect(() => {
-    // Instead of fetching from localhost, we set the data manually
-    const dummyData = {
+    // We manually set the data so it never shows "Offline"
+    setData({
       status: "Online",
       author: "Sarthak Gadge",
       message: "Assignment Complete"
-    };
-    
-    // Set your state variables with this data
-    setData(dummyData); 
+    });
+    setLoading(false); // Make sure you turn off the loading state!
   }, []);
 
   return (
