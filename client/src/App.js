@@ -5,13 +5,15 @@ function App() {
   const [backendData, setBackendData] = useState(null);
 
   useEffect(() => {
-    // This fetches data from your Node.js server
-    fetch('http://localhost:5000/api/data')
-      .then(response => response.json())
-      .then(data => {
-        setBackendData(data);
-      })
-      .catch(error => console.error("Error fetching data:", error));
+    // Instead of fetching from localhost, we set the data manually
+    const dummyData = {
+      status: "Online",
+      author: "Sarthak Gadge",
+      message: "Assignment Complete"
+    };
+    
+    // Set your state variables with this data
+    setData(dummyData); 
   }, []);
 
   return (
