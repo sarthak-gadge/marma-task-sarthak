@@ -28,7 +28,7 @@ function App() {
         </div>
 
         <div className="mt-8 pt-6 border-t border-gray-200">
-          <p className="text-gray-500 font-medium italic">Requirement Checklist Complete</p>
+          <p className="text-gray-500 font-medium italic"> Complete</p>
         </div>
       </div>
     </div>
