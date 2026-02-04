@@ -26,7 +26,7 @@ function App() {
       {/* Requirement #6c: Using H1 for SEO */}
       <div className="bg-white p-8 rounded-lg shadow-xl w-full max-w-md text-center">
         <h1 className="text-3xl font-bold mb-6 text-blue-600 border-b pb-4">
-          Marma Task Submission
+           Task :
         </h1>
         
         <div className="space-y-4 text-left">
@@ -46,7 +46,7 @@ function App() {
 
         <div className="mt-8 pt-6 border-t border-gray-200">
           <p className="text-sm text-gray-400 uppercase tracking-widest font-semibold">
-            MERN Stack Developer Task
+            MERN Stack  Task
           </p>
         </div>
       </div>
